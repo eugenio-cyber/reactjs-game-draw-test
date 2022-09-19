@@ -1,5 +1,67 @@
 .home {
-  height: 100vh;
+  display: flex;
 
-  background: darkcyan;
+  height: 100vh;
+  padding: 24px 0;
+
+  background: purple;
+}
+
+.home__column--first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 30vw;
+}
+
+.home__column--second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+
+  width: 30vw;
+}
+
+.icon--versus {
+  width: 40px;
+  height: 40px;
+}
+
+.home__group {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.home__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 1280px) {
+  .home__column--first {
+    width: 30vw;
+  }
+
+  .home__column--second {
+    gap: 36px;
+
+    width: 30vw;
+  }
+}
+
+@media (max-width: 1400px) {
+  .home__column--first {
+    width: 24vw;
+  }
+
+  .home__column--second {
+    gap: 36px;
+
+    width: 24vw;
+  }
 }
