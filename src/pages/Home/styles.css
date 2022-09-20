@@ -1,5 +1,6 @@
 .home {
   display: flex;
+  justify-content: center;
 
   height: 100vh;
   padding: 24px 0;
@@ -12,7 +13,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  width: 30vw;
+  width: 20vw;
 }
 
 .home__column--second {
@@ -24,7 +25,19 @@
   width: 30vw;
 }
 
+.home__column--center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 30vw;
+  padding-top: 2vh;
+}
+
 .icon--versus {
+  position: absolute;
+  z-index: 1;
+
   width: 40px;
   height: 40px;
 }
@@ -32,26 +45,24 @@
 .home__group {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-}
-
-.home__card {
-  display: flex;
-  justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-@media (max-width: 1280px) {
-  .home__column--first {
-    width: 30vw;
-  }
+.home__card {
+  position: relative;
 
-  .home__column--second {
-    gap: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
 
-    width: 30vw;
-  }
+.home__title {
+  font-weight: 700;
+  font-size: 16px;
+
+  color: white;
 }
 
 @media (max-width: 1400px) {
@@ -63,5 +74,8 @@
     gap: 36px;
 
     width: 24vw;
+  }
+  .home__card {
+    gap: 1%;
   }
 }
