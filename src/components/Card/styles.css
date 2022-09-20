@@ -27,8 +27,8 @@
 }
 
 .card__nick {
-  font-family: "Silkscreen", cursive;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 18px;
 
   color: rebeccapurple;
 }
