@@ -9,7 +9,7 @@
 
 ## 🔗 Quer acessar o projeto?
 
-Não há [link]() para acessar esse projeto. 
+Clique [aqui](http://game-frontend-teste.vercel.app/) para acessar esse projeto. 
 
 ## 🏹 Qual o objetivo do projeto?
 
